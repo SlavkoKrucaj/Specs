@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/infinum/iphone_datalayer.git", :commit => '12b84400516a1b77104d367218d519a2c1578d4d'}
   s.platform     = :ios, '5.0'
   s.source_files = 'DataLayer/Classes/DataLayer/**/*.{h,m}','DataLayer/Classes/DataLayer Addons/**/*.{h,m}','DataLayer/Classes/DataLayer Vendor/**/*.{h,m}'
-  s.library   = 'xml2'
+  s.libraries   = 'xml2','libz'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 	s.frameworks = 'CoreGraphics','Foundation','UIKit','QuartzCore','CFNetwork','CoreData','SystemConfiguration','Security','MobileCoreServices','AVFoundation','CoreLocation','CoreVideo'
 end
