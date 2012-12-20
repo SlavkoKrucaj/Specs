@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://infinum.com"
   s.license      = { :type => 'Custom', :text => 'Copyright (C) 2012 Slavko Krucaj. All Rights Reserved.' }
   s.author       = { "Slavko Krucaj" => "slavko@infinum.hr" }
-  s.source       = { :git => "https://github.com/infinum/iphone_datalayer.git", :commit => '12b84400516a1b77104d367218d519a2c1578d4d'}
+  s.source       = { :git => "https://github.com/infinum/iphone_datalayer.git", :commit => '8a98f571fb7844d8c4b0531f5d3ada44dbad8c81'}
   s.platform     = :ios, '5.0'
   s.source_files = 'DataLayer/Classes/DataLayer/**/*.{h,m}','DataLayer/Classes/DataLayer Addons/**/*.{h,m}','DataLayer/Classes/DataLayer Vendor/**/*.{h,m}'
   s.libraries   = 'xml2','z'
