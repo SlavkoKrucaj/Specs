@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'DataLayer/Classes/DataLayer/**/*.{h,m}','DataLayer/Classes/DataLayer Addons/**/*.{h,m}','DataLayer/Classes/DataLayer Vendor/**/*.{h,m}'
   s.libraries   = 'xml2','z'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2'}
 	s.frameworks = 'CoreGraphics','Foundation','UIKit','QuartzCore','CFNetwork','CoreData','SystemConfiguration','Security','MobileCoreServices','AVFoundation','CoreLocation','CoreVideo'
 end
