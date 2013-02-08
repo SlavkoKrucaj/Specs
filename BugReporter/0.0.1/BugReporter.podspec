@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "www.krucaj.com"
   s.license      = { :type => 'Custom', :text => 'Copyright (C) 2012 Slavko Krucaj. All Rights Reserved.' }
   s.author       = { "Slavko Krucaj" => "slavko@soundcloud.com" }
-  s.source       = { :git => "https://github.com/SlavkoKrucaj/BugReporter.git", :commit => '44a6b37fb076159d725d178ce1afc83a7fb335f4'}
+  s.source       = { :git => "https://github.com/SlavkoKrucaj/BugReporter.git", :commit => '0d011d4ea3b9c76dca1a18b2aabc01c3993d44bc'}
   s.platform     = :ios, ''
   s.source_files = 'BugReporter/**/*.{h,m}'
   s.resources    = "BugReporter/Resources/*"
