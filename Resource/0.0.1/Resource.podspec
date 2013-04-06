@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = '*/**.{h,m}'
 
-  s.resources = "./*.png"
+  s.resources = "*/**.png"
 end
